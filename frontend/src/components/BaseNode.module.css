@@ -1,0 +1,43 @@
+.container {
+  width: 220px;
+  height: auto;
+  min-height: 80px;
+  border: 2px solid #4b9ce2;
+  border-radius: 8px;
+  background-color: #f5f7fa;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  font-family: Arial, sans-serif;
+  overflow: visible;
+}
+
+.titleBar {
+  font-weight: bold;
+  background-color: #4b9ce2;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  border-radius: 6px 6px 0 0;
+  font-size: 14px;
+}
+
+.content {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.port {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #4b9ce2;
+  border-radius: 50%;
+  margin: 2px 0;
+  z-index: 9999;
+  pointer-events: auto;
+  transform: translateY(-50%);
+}

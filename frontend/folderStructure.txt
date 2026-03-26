@@ -1,0 +1,31 @@
+.
+├── folderStructure.txt
+├── package.json
+├── package-lock.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+└── src
+    ├── App.js
+    ├── components
+    │   ├── BaseNode.js
+    │   └── BaseNode.module.css
+    ├── draggableNode.js
+    ├── index.css
+    ├── index.js
+    ├── nodes
+    │   ├── inputNode.js
+    │   ├── llmNode.js
+    │   ├── outputNode.js
+    │   └── textNode.js
+    ├── store.js
+    ├── submit.js
+    ├── toolbar.js
+    └── ui.js
+
+5 directories, 24 files
